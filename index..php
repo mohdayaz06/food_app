@@ -52,10 +52,11 @@
     <p>Phone: +91-1234567890</p>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Ayaz Food Delivery</p>
-  </footer>
+ <footer>
+  <p>&copy; 2025 Ayaz Food Delivery</p>
+  <p style="color:red;">Server IP: <?php echo $_SERVER['SERVER_ADDR']; ?></p>
+</footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
